@@ -17,3 +17,8 @@ Thumbs.db
 
 # Large exported/generated artifacts can be tracked deliberately if needed.
 # Prefer Git LFS later for large CAD/BIM/binary assets.
+*.pyc
+site/
+dist/
+build/
+*.FCStd1

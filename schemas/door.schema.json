@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://openhousingstandard.org/schemas/door.schema.json",
+  "title": "OHS Door",
+  "type": "object",
+  "required": ["id", "type", "clear_width_mm"],
+  "properties": {
+    "id": { "type": "string" },
+    "type": { "type": "string" },
+    "clear_width_mm": { "type": "number", "minimum": 600 },
+    "threshold": { "type": "string" },
+    "notes": { "type": "string" }
+  },
+  "additionalProperties": true
+}

@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://openhousingstandard.org/schemas/wall.schema.json",
+  "title": "OHS Wall Assembly",
+  "type": "object",
+  "required": ["id", "type"],
+  "properties": {
+    "id": { "type": "string" },
+    "type": { "type": "string" },
+    "assembly": { "type": "array", "items": { "type": "string" } },
+    "fire_rating": { "type": "string" },
+    "sound_rating": { "type": "string" },
+    "notes": { "type": "string" }
+  },
+  "additionalProperties": true
+}

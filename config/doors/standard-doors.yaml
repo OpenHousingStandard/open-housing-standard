@@ -1,0 +1,9 @@
+# Draft default door family for OHS reference models.
+# Final dimensions must be verified by a qualified architect/building professional.
+interior_accessible:
+  clear_width_mm_min: 900
+  threshold: none_or_low_accessible
+
+exterior_main:
+  clear_width_mm_min: 900
+  threshold: accessible_weatherproof

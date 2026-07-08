@@ -43,3 +43,6 @@ pythonpath = ["."]
 [tool.ohs]
 standard_version = "0.1.0"
 default_model = "oh120"
+
+[tool.uv]
+package = true

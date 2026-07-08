@@ -1,0 +1,16 @@
+standard:
+  name: Open Housing Standard
+  version: 0.1.0
+  status: draft
+
+reference_models:
+  - oh90
+  - oh120
+  - oh150
+
+principles:
+  local_first: true
+  universal_design: true
+  dry_wet_technical_separation: true
+  open_formats: true
+  repairability: true

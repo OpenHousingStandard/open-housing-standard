@@ -1,11 +1,11 @@
-# CAD and BIM
+# CAD and BIM Workspace
 
-Shared CAD/BIM resources for OHS.
+This directory contains shared CAD/BIM resources for Open Housing Standard.
 
-Canonical stack:
+- `freecad/` — FreeCAD source models and shared parametric components.
+- `blender/` — Blender scenes and visualisation assets.
+- `ifc/` — shared IFC exports and exchange models.
+- `shared/` — reusable geometry, symbols and common resources.
+- `templates/` — starter CAD/BIM templates.
 
-- FreeCAD for parametric source models
-- IFC for BIM exchange
-- Blender / BlenderBIM for visualization
-- YAML for model configuration
-- Markdown for documentation
+Model-specific CAD files live under `reference/oh90`, `reference/oh120` and `reference/oh150`.

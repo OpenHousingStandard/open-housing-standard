@@ -1,0 +1,9 @@
+# Draft construction assemblies.
+# These are placeholders, not approved construction drawings.
+external_wall:
+  type: timber_frame
+  target: low_energy_tek17_or_better
+
+internal_wall:
+  type: lightweight_partition
+  repairable: true

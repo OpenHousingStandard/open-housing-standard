@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://openhousingstandard.org/schemas/window.schema.json",
+  "title": "OHS Window",
+  "type": "object",
+  "required": ["id", "type"],
+  "properties": {
+    "id": { "type": "string" },
+    "type": { "type": "string" },
+    "width_mm": { "type": "number", "minimum": 100 },
+    "height_mm": { "type": "number", "minimum": 100 },
+    "glazing": { "type": "string" },
+    "u_value": { "type": "number" },
+    "notes": { "type": "string" }
+  },
+  "additionalProperties": true
+}

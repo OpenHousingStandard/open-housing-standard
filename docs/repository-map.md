@@ -1,32 +1,20 @@
 # Repository Map
 
-The repository is split into a standard, official reference houses, community contributions and tooling.
-
 ```text
 open-housing-standard/
-├── standard/      # The OHS specification
-├── reference/     # Official reference houses: OH90, OH120, OH150
-├── community/     # Community houses, examples and plugins
-├── cad/           # Shared CAD/BIM templates and assets
-├── config/        # Global configuration defaults
-├── schemas/       # JSON schemas for YAML/JSON validation
-├── scripts/       # Generation and validation scripts
-├── templates/     # Jinja/CSV/Markdown templates
-├── docs/          # Project documentation and ADRs
-├── assets/        # Logos, icons, renders and textures
-└── tests/         # Automated tests
+├── standard/          # OHS specification
+├── reference/         # Official reference houses: OH90, OH120, OH150
+├── community/         # Community models, examples and plugins
+├── cad/               # Shared CAD/BIM resources
+├── config/            # Global defaults and component families
+├── schemas/           # JSON Schemas for machine-readable validation
+├── src/ohs/           # Python package for OHS tooling
+├── scripts/           # Helper scripts and command-line wrappers
+├── templates/         # Markdown/CSV/Jinja templates
+├── tests/             # Automated tests
+├── docs/              # Project documentation
+├── assets/            # Logos, renders, images and textures
+└── .github/           # GitHub workflows and templates
 ```
 
-Each official house model keeps all model-specific files under its own folder:
-
-```text
-reference/oh120/
-├── config/house.yaml
-├── cad/source/
-├── cad/ifc/
-├── drawings/
-├── exports/
-├── bom/
-├── renders/
-└── docs/
-```
+See `ARCHITECTURE.md` for the full repository architecture.

@@ -1,0 +1,6 @@
+# Draft default window family for OHS reference models.
+# Final sizes and U-values must be adapted to climate, facade and energy calculations.
+default:
+  glazing: triple
+  openable: true
+  standardized_sizes_required: true
