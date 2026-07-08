@@ -1,0 +1,6 @@
+category,item,quantity,unit,notes
+area,target_bra,150,m2,concept value
+technical,dry_technical_room,4.0,m2,required
+energy,wood_stove,1,pcs,standard
+energy,heat_pump,1,pcs,standard
+network,structured_cabling,1,lot,Cat6A or better

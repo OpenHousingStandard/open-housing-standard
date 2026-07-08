@@ -1,0 +1,10 @@
+category,item,quantity,unit,notes
+structure,foundation,0,m2,To be calculated
+structure,external walls,0,m2,To be calculated
+roof,pitched roof,0,m2,To be calculated
+openings,windows,0,pcs,Standard sizes preferred
+openings,external doors,0,pcs,Step-free access
+interior,internal doors,0,pcs,Minimum 90 cm where practical
+technical,19-inch rack,1,pcs,18U-24U typical
+technical,network cabling,0,points,Cat6A preferred
+heating,wood stove,1,pcs,Central living area placement

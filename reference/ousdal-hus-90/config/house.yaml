@@ -1,0 +1,73 @@
+house:
+  name: "Ousdal Hus 90"
+  standard: "OHS"
+  standard_version: "0.1.0"
+  model_status: "concept"
+  type: "single-storey detached house"
+  floors: 1
+
+areas:
+  target_bra_m2: 90
+  estimated_bya_m2: null
+
+dimensions:
+  length_m: 12.0
+  width_m: 8.0
+  ceiling_height_m: 2.4
+  roof_type: "gable"
+  roof_pitch_degrees: 22
+
+rooms:
+  living_kitchen_m2: 38.0
+  bedrooms: 2
+  flexible_rooms: 1
+  main_bedroom_m2: 14.0
+  secondary_bedroom_m2: 12.0
+  flexible_room_m2: 10.0
+  bathroom_laundry_m2: 8.0
+  guest_wc_m2: 2.5
+  entrance_m2: 6.0
+  hallway_m2: 7.0
+  dry_technical_room_m2: 4.0
+  storage_m2: 4.0
+
+technical_zones:
+  dry_technical_room:
+    required: true
+    water_installations_allowed: false
+    rack_target: "24U minimum, 42U optional"
+    contains:
+      - electrical distribution
+      - fiber termination
+      - patch panel
+      - router/firewall
+      - switch
+      - UPS
+      - Home Assistant controller
+      - NAS/server optional
+  wet_zone:
+    required: true
+    contains:
+      - bathroom/laundry
+      - guest WC
+      - water heater
+      - pipe manifold
+      - leak detection
+  climate_zone:
+    required: true
+    contains:
+      - balanced ventilation with heat recovery
+
+features:
+  universal_design: true
+  threshold_free: true
+  local_first_smart_home: true
+  structured_network: true
+  wood_stove: true
+  heat_pump: true
+  balanced_ventilation: true
+  solar_ready: true
+  battery_ready: true
+  basement_optional: true
+  carport_optional: true
+  garage_optional: true

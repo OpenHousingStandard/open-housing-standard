@@ -1,0 +1,16 @@
+house:
+  id: "ousdal-hus-150"
+  name: "Ousdal Hus 150"
+  type: "one-level detached house"
+  target_bra_m2: 150
+  bedrooms: 3
+  large_flexible_room: true
+  alternative_use: "4 bedrooms"
+  bathroom_laundry: true
+  guest_wc: true
+  dry_technical_room_m2: 4.0
+  pantry_storage: true
+  wood_stove: true
+  basement_option: true
+  carport_option: true
+  garage_option: true

@@ -14,3 +14,17 @@ OHS focuses on:
 - standard components
 - low lifecycle cost
 - full documentation
+
+## Technology stack
+
+OHS uses open tools and formats:
+
+- FreeCAD for parametric/BIM source models.
+- IFC for open BIM exchange.
+- Blender + BlenderBIM for visualisation.
+- YAML/JSON for configuration and generated metadata.
+- Markdown for documentation.
+- CSV/JSON for material lists.
+- GitHub for version control, review and collaboration.
+
+See `docs/tech-stack.md` and `docs/repository-map.md`.

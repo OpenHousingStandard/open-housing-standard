@@ -1,0 +1,35 @@
+# {{ house.name }}
+
+Status: {{ house.model_status }}
+
+## Key data
+
+| Field | Value |
+|---|---:|
+| Target BRA | {{ areas.target_bra_m2 }} m² |
+| Floors | {{ house.floors }} |
+| Length | {{ dimensions.length_m }} m |
+| Width | {{ dimensions.width_m }} m |
+| Bedrooms | {{ rooms.bedrooms }} |
+| Flexible rooms | {{ rooms.flexible_rooms }} |
+| Dry technical room | {{ rooms.dry_technical_room_m2 }} m² |
+
+## OHS features
+
+{% for key, value in features.items() -%}
+- {{ key | replace('_', ' ') }}: {{ value }}
+{% endfor %}
+
+## Technical zoning
+
+### Dry technical room
+
+{% for item in technical_zones.dry_technical_room.contains -%}
+- {{ item }}
+{% endfor %}
+
+### Wet zone
+
+{% for item in technical_zones.wet_zone.contains -%}
+- {{ item }}
+{% endfor %}

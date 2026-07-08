@@ -1,0 +1,22 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+
+# Generated outputs
+site/
+dist/
+build/
+*.log
+
+# FreeCAD backup files
+*.FCStd1
+*.FCBak
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
