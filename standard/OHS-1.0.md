@@ -19,3 +19,7 @@ Vannførende installasjoner og IT-/elektrotekniske installasjoner skal, der det 
 OHS-17 – Funksjonsnøytrale rom
 
 Rom skal, der det er praktisk, utformes slik at de kan brukes til flere formål gjennom husets levetid uten strukturelle endringer. Dette reduserer behovet for ombygging og gjør boligen mer tilpasningsdyktig til ulike livsfaser. Jeg synes det passer perfekt med resten av OHS-filosofien.
+
+OHS-18 – Separasjon av kritisk infrastruktur
+
+Kritisk elektrisk og digital infrastruktur skal plasseres i en tørr teknisk sone. Vannførende installasjoner skal, der det er praktisk mulig, holdes fysisk adskilt fra denne sonen. Dersom føringer må krysse, skal de være lett tilgjengelige for inspeksjon og utformes slik at en eventuell lekkasje ikke kan renne over eller inn i den tørre tekniske sonen.
