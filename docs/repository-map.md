@@ -1,17 +1,32 @@
 # Repository Map
 
+The repository is split into a standard, official reference houses, community contributions and tooling.
+
 ```text
-.github/          GitHub CI and issue templates
-assets/           Images, icons and visual material
-bom/              Material lists and quantity templates
-checklists/       Design and handover checklists
-config/           YAML configuration for reference houses
-docs/             General documentation and workflows
-drawings/         Exported drawings: PDF/DXF by model
-exports/          Visualisation exports: GLB/OBJ by model
-ifc/              IFC exports by model
-model/            FreeCAD source models and shared parts
-models/           Markdown descriptions of reference houses
-scripts/          Validation and generation tools
-standard/         OHS standard documents
+open-housing-standard/
+├── standard/      # The OHS specification
+├── reference/     # Official reference houses: OH90, OH120, OH150
+├── community/     # Community houses, examples and plugins
+├── cad/           # Shared CAD/BIM templates and assets
+├── config/        # Global configuration defaults
+├── schemas/       # JSON schemas for YAML/JSON validation
+├── scripts/       # Generation and validation scripts
+├── templates/     # Jinja/CSV/Markdown templates
+├── docs/          # Project documentation and ADRs
+├── assets/        # Logos, icons, renders and textures
+└── tests/         # Automated tests
+```
+
+Each official house model keeps all model-specific files under its own folder:
+
+```text
+reference/oh120/
+├── config/house.yaml
+├── cad/source/
+├── cad/ifc/
+├── drawings/
+├── exports/
+├── bom/
+├── renders/
+└── docs/
 ```

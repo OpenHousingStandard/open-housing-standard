@@ -6,7 +6,7 @@ import sys
 import yaml
 
 ROOT = Path(__file__).resolve().parents[1]
-MODELS = ROOT / "reference"
+REFERENCE = ROOT / "reference"
 
 REQUIRED_FEATURES = [
     "universal_design",
@@ -21,7 +21,7 @@ def validate_house_config(path: Path) -> list[str]:
     data = yaml.safe_load(path.read_text(encoding="utf-8"))
 
     if data["house"].get("floors") != 1:
-        errors.append(f"{path}: Ousdal Hus reference models must be single-storey")
+        errors.append(f"{path}: OHS reference houses must be single-storey")
 
     tech = data.get("technical_zones", {}).get("dry_technical_room", {})
     if not tech.get("required"):
@@ -42,9 +42,9 @@ def validate_house_config(path: Path) -> list[str]:
 
 
 def main() -> int:
-    paths = sorted(MODELS.glob("ousdal-hus-*/config/house.yaml"))
+    paths = sorted(REFERENCE.glob("oh*/config/house.yaml"))
     if not paths:
-        print("No model configs found", file=sys.stderr)
+        print("No reference house configs found", file=sys.stderr)
         return 1
 
     errors: list[str] = []
@@ -57,7 +57,7 @@ def main() -> int:
             print(f"- {error}")
         return 1
 
-    print(f"OHS validation passed for {len(paths)} models.")
+    print(f"OHS validation passed for {len(paths)} reference houses.")
     return 0
 
 

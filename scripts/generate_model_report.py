@@ -14,9 +14,10 @@ def main() -> int:
     env = Environment(loader=FileSystemLoader(TEMPLATES), autoescape=False)
     template = env.get_template("model_report.md.j2")
 
-    for config in sorted(REFERENCE.glob("ousdal-hus-*/config/house.yaml")):
+    for config in sorted(REFERENCE.glob("oh*/config/house.yaml")):
         data = yaml.safe_load(config.read_text(encoding="utf-8"))
         output = config.parents[1] / "docs" / "generated-report.md"
+        output.parent.mkdir(parents=True, exist_ok=True)
         output.write_text(template.render(**data), encoding="utf-8")
         print(f"Wrote {output}")
 

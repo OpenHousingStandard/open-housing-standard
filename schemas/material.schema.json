@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://openhousingstandard.org/schemas/material.schema.json",
+  "title": "OHS Material",
+  "type": "object",
+  "required": ["category", "item"],
+  "properties": {
+    "category": { "type": "string" },
+    "item": { "type": "string" },
+    "unit": { "type": "string" },
+    "notes": { "type": "string" }
+  }
+}

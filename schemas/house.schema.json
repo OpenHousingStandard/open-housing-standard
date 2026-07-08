@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://openhousingstandard.org/schemas/house.schema.json",
+  "title": "OHS House Configuration",
+  "type": "object",
+  "required": ["house", "areas", "rooms", "features", "technical_zones"],
+  "properties": {
+    "house": {
+      "type": "object",
+      "required": ["id", "name", "floors"],
+      "properties": {
+        "id": { "type": "string" },
+        "name": { "type": "string" },
+        "floors": { "type": "integer", "minimum": 1 }
+      }
+    },
+    "areas": {
+      "type": "object",
+      "required": ["target_bra_m2"],
+      "properties": {
+        "target_bra_m2": { "type": "number", "minimum": 1 }
+      }
+    },
+    "rooms": { "type": "object" },
+    "features": { "type": "object" },
+    "technical_zones": { "type": "object" }
+  }
+}

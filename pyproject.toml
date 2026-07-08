@@ -42,4 +42,4 @@ pythonpath = ["."]
 
 [tool.ohs]
 standard_version = "0.1.0"
-default_model = "ousdal-hus-120"
+default_model = "oh120"

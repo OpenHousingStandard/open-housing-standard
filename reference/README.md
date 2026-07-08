@@ -1,15 +1,9 @@
-# OHS Reference Models
+# Reference Houses
 
-This folder contains reference implementations of Open Housing Standard.
+Official OHS reference implementations:
 
-Current models:
+- `oh90` — Ousdal Hus 90
+- `oh120` — Ousdal Hus 120
+- `oh150` — Ousdal Hus 150
 
-- `ousdal-hus-90` — compact model.
-- `ousdal-hus-120` — standard model.
-- `ousdal-hus-150` — larger model.
-
-Optional modules:
-
-- Basement.
-- Carport.
-- Garage.
+Reference houses demonstrate how the Open Housing Standard can be implemented in practical, buildable designs.

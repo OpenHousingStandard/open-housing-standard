@@ -5,18 +5,15 @@ __pycache__/
 .pytest_cache/
 .ruff_cache/
 
-# Generated outputs
-site/
-dist/
-build/
-*.log
-
-# FreeCAD backup files
-*.FCStd1
-*.FCBak
-
 # OS/editor
 .DS_Store
 Thumbs.db
 .vscode/
 .idea/
+
+# Generated temporary files
+*.tmp
+*.log
+
+# Large exported/generated artifacts can be tracked deliberately if needed.
+# Prefer Git LFS later for large CAD/BIM/binary assets.

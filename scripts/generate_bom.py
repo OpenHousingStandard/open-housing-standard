@@ -10,10 +10,11 @@ REFERENCE = ROOT / "reference"
 
 
 def main() -> int:
-    for config in sorted(REFERENCE.glob("ousdal-hus-*/config/house.yaml")):
+    for config in sorted(REFERENCE.glob("oh*/config/house.yaml")):
         data = yaml.safe_load(config.read_text(encoding="utf-8"))
         model_dir = config.parents[1]
         output = model_dir / "bom" / "summary.csv"
+        output.parent.mkdir(parents=True, exist_ok=True)
         rows = [
             ["category", "item", "quantity", "unit", "notes"],
             ["area", "target_bra", data["areas"]["target_bra_m2"], "m2", "concept value"],

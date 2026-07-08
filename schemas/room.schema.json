@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://openhousingstandard.org/schemas/room.schema.json",
+  "title": "OHS Room Definition",
+  "type": "object",
+  "required": ["name", "area_m2"],
+  "properties": {
+    "name": { "type": "string" },
+    "area_m2": { "type": "number", "minimum": 0 },
+    "function_neutral": { "type": "boolean" },
+    "wet_zone": { "type": "boolean" },
+    "dry_technical_zone": { "type": "boolean" }
+  }
+}
