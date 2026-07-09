@@ -1,0 +1,5 @@
+# Terminology
+
+Status: Draft
+
+TODO.

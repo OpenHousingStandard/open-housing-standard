@@ -1,5 +1,20 @@
-Status: Living Specification
-Version: 0.1.0
+OHS-001
+
+Open Housing Standard
+
+Version 1.0.0-draft.1
+
+Status:
+Draft
+
+Publisher:
+Open Housing Standard
+
+License:
+CC BY-SA 4.0
+
+Published:
+2026-07-08
 
 Saltak 35–45°.
 Ingen takarker i grunnmodellen.
