@@ -1,0 +1,40 @@
+site_name: Open Housing Standard
+site_description: An open, vendor-neutral housing standard for durable, accessible and technology-friendly homes.
+repo_url: https://github.com/OpenHousingStandard/open-housing-standard
+
+theme:
+  name: material
+
+nav:
+  - Home: README.md
+  - Architecture: ARCHITECTURE.md
+  - Standards:
+      - Overview: standard/README.md
+      - OHS-001 Open Housing Standard:
+          - Overview: standard/OHS-001/README.md
+          - Introduction: standard/OHS-001/01-introduction.md
+          - Scope: standard/OHS-001/02-scope.md
+          - Normative References: standard/OHS-001/03-normative-references.md
+          - Terminology: standard/OHS-001/04-terminology.md
+          - Design Principles: standard/OHS-001/05-design-principles.md
+          - Standard Architecture: standard/OHS-001/06-standard-architecture.md
+          - Conformance: standard/OHS-001/07-conformance.md
+          - Governance: standard/OHS-001/08-governance.md
+          - Versioning: standard/OHS-001/09-versioning.md
+          - Appendix A: standard/OHS-001/appendix-a-rationale.md
+          - Appendix B: standard/OHS-001/appendix-b-citation-format.md
+      - OHS-100 Architectural Rules: standard/OHS-100/README.md
+      - OHS-200 Technical Core: standard/OHS-200/README.md
+      - OHS-300 Universal Design: standard/OHS-300/README.md
+      - OHS-400 Energy & Sustainability: standard/OHS-400/README.md
+      - OHS-500 Documentation & Digital Assets: standard/OHS-500/README.md
+      - OHS-600 Reference Houses: standard/OHS-600/README.md
+      - OHS-700 Compliance & Certification: standard/OHS-700/README.md
+      - OHS-900 Glossary: standard/OHS-900/README.md
+  - Project:
+      - Standards Guide: docs/standards/README.md
+      - ADR-0001: docs/adr/0001-rfc-style-standard-documents.md
+
+# OHS-000 navigation hint added by bootstrap-ohs-editorial.sh.
+# Move this entry into the curated nav section if required:
+# - OHS-000 Editorial Standard: standard/OHS-000/README.md
