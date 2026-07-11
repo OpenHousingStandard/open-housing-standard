@@ -24,14 +24,6 @@ Last Updated: '2026-07-11'
 Next Review: Before 1.0.0-rc.1
 ---
 
-# OHS-001 §4 — Terminology
-
-**Status:** Draft  
-**Version:** 0.1.0  
-**Normative**
-
----
-
 # 4. Terminology
 
 This section defines the terminology used throughout the Open Housing Standard (OHS).

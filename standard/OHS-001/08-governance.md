@@ -26,9 +26,6 @@ Next Review: Before 1.0.0-rc.1
 
 # 8. Governance
 
-**Normative**
-
----
 
 ## 8.1 Purpose
 

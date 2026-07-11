@@ -48,6 +48,7 @@ default_model = "oh120"
 package = true
 
 [project.scripts]
+ohs-editorial = "ohs.editorial:main"
 ohs-normalize-frontmatter = "ohs.frontmatter:main"
 ohs-maintain = "ohs.maintenance:main"
 ohs-build-docs = "ohs.docs.cli:main"

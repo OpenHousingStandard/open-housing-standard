@@ -26,11 +26,6 @@ Next Review: Before 1.0.0-rc.1
 
 # 9. Versioning
 
-**Status:** Draft
-
-**Normative**
-
----
 
 ## 9.1 Purpose
 

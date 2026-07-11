@@ -26,11 +26,6 @@ Next Review: Before 1.0.0-rc.1
 
 # Appendix B — Citation and Referencing
 
-**Status:** Draft
-
-**Informative**
-
----
 
 ## B.1 Purpose
 
@@ -44,14 +39,14 @@ This appendix is informative and does not define conformance requirements.
 
 ## B.2 General Principles
 
-References to OHS specifications SHOULD include:
+References to OHS specifications should include:
 
 - specification identifier;
 - version number;
 - publication year;
 - publication status where relevant.
 
-Whenever practical, references SHOULD identify the exact version of the specification.
+Whenever practical, references should identify the exact version of the specification.
 
 ---
 
@@ -68,13 +63,13 @@ OHS-200
 OHS-300
 ```
 
-Specification numbers SHALL remain stable once published.
+Specification numbers shall remain stable once published.
 
 ---
 
 ## B.4 Version References
 
-Version numbers SHOULD always be included.
+Version numbers should always be included.
 
 Examples:
 
@@ -102,7 +97,7 @@ because they are ambiguous.
 
 ## B.5 Publication Status
 
-When referring to unpublished specifications, the publication status SHOULD be included.
+When referring to unpublished specifications, the publication status should be included.
 
 Examples:
 
@@ -120,7 +115,7 @@ OHS-001 Stable
 
 ## B.6 Formal Citation
 
-A formal citation SHOULD contain:
+A formal citation should contain:
 
 - project name;
 - specification identifier;
@@ -138,7 +133,7 @@ OHS-001 Version 1.0.0 (2026).
 
 ## B.7 Repository References
 
-Development versions MAY be referenced using repository locations.
+Development versions may be referenced using repository locations.
 
 Example:
 
@@ -150,13 +145,13 @@ draft branch
 commit 4e12f18
 ```
 
-Repository references SHALL NOT replace published version references in conformance claims.
+Repository references shall not replace published version references in conformance claims.
 
 ---
 
 ## B.8 Referencing Sections
 
-References SHOULD identify the specific section whenever practical.
+References should identify the specific section whenever practical.
 
 Example:
 
@@ -174,7 +169,7 @@ Section references improve precision and reduce ambiguity.
 
 ## B.9 Cross References
 
-Normative cross references SHOULD identify:
+Normative cross references should identify:
 
 - specification number;
 - section number.
@@ -201,7 +196,7 @@ because document titles may evolve.
 
 ## B.10 ADR References
 
-Architecture Decision Records SHOULD be referenced by ADR number.
+Architecture Decision Records should be referenced by ADR number.
 
 Examples:
 
@@ -225,7 +220,7 @@ ADR-0003 — Three Reference House Sizes
 
 ## B.11 Reference Houses
 
-Reference houses SHOULD be identified using their model identifiers.
+Reference houses should be identified using their model identifiers.
 
 Examples:
 
@@ -251,7 +246,7 @@ The identifier remains stable even if descriptive names change.
 
 ## B.12 Reference Implementations
 
-Reference implementations SHOULD identify:
+Reference implementations should identify:
 
 - implementation name;
 - supported specification;
@@ -269,7 +264,7 @@ Conforms to OHS-001 Version 1.0.0
 
 ## B.13 Software Implementations
 
-Software tools implementing OHS SHOULD declare:
+Software tools implementing OHS should declare:
 
 - supported OHS specification;
 - supported version;
@@ -289,7 +284,7 @@ OHS-400 Version 1.2.0
 
 ## B.14 Academic References
 
-Academic publications SHOULD cite published specifications rather than repository drafts whenever possible.
+Academic publications should cite published specifications rather than repository drafts whenever possible.
 
 Example:
 
@@ -302,7 +297,7 @@ OHS-001 Version 1.0.0 (2026).
 
 ## B.15 Regulatory References
 
-When OHS specifications are referenced by regulations or contracts, the exact version SHOULD be identified.
+When OHS specifications are referenced by regulations or contracts, the exact version should be identified.
 
 Example:
 
@@ -317,7 +312,7 @@ This avoids ambiguity if newer versions are published.
 
 ## B.16 Change References
 
-When discussing revisions between versions, references SHOULD identify both versions.
+When discussing revisions between versions, references should identify both versions.
 
 Example:
 
@@ -330,9 +325,9 @@ to Version 1.1.0.
 
 ## B.17 Permanent References
 
-Published OHS versions SHOULD remain permanently available.
+Published OHS versions should remain permanently available.
 
-References SHALL continue to resolve to the cited version even after newer versions have been published.
+References shall continue to resolve to the cited version even after newer versions have been published.
 
 This principle supports long-term documentation and archival stability.
 
@@ -353,7 +348,7 @@ Reference House OH120.
 ADR-0003 — Three Reference House Sizes.
 ```
 
-Examples that SHOULD be avoided:
+Examples that should be avoided:
 
 ```
 Latest OHS
@@ -373,7 +368,7 @@ These references are ambiguous and may become invalid over time.
 
 ## B.19 Persistent Identifiers
 
-Future published versions of OHS MAY include persistent identifiers such as:
+Future published versions of OHS may include persistent identifiers such as:
 
 - DOI;
 - permanent URLs;

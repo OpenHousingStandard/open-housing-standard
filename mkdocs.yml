@@ -33,7 +33,7 @@ nav:
   - 1. Introduction: standards/ohs-001/01-introduction.md
   - 2. Scope: standards/ohs-001/02-scope.md
   - 3. Normative References: standards/ohs-001/03-normative-references.md
-  - OHS-001 §4 — Terminology: standards/ohs-001/04-terminology.md
+  - 4. Terminology: standards/ohs-001/04-terminology.md
   - 5. Requirements: standards/ohs-001/05-requirements.md
   - 6. Standard Architecture: standards/ohs-001/06-standard-architecture.md
   - 7. Conformance: standards/ohs-001/07-conformance.md
@@ -104,6 +104,7 @@ nav:
   - Decisions: project/decisions.md
   - Design Philosophy: project/design-philosophy.md
   - Disclaimer: project/disclaimer.md
+  - OHS Editorial Rules: project/editorial.md
   - 'Milestone: OHS-000 Draft': project/milestones/ohs-000-draft.md
   - 'Milestone: OHS-001 Draft': project/milestones/ohs-001-draft.md
   - Non Goals: project/non-goals.md

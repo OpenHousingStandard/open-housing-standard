@@ -26,11 +26,6 @@ Next Review: Before 1.0.0-rc.1
 
 # Appendix A — Design Rationale
 
-**Status:** Draft
-
-**Informative**
-
----
 
 ## A.1 Purpose
 
