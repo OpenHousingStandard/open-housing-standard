@@ -344,7 +344,7 @@ See OHS-001 Section 5.4.
 
 Reference House OH120.
 
-ADR-0003 — Three Reference House Sizes.
+ADR-0003: Use three reference sizes.
 ```
 
 Examples that should be avoided:
