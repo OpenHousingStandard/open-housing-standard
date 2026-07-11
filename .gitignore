@@ -27,3 +27,6 @@ build/
 
 # Generated documentation staging tree
 docs/generated/
+
+# Local backups created by ohs-maintain --fix
+.ohs-maintenance-backup/

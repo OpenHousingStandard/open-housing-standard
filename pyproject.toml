@@ -48,4 +48,5 @@ default_model = "oh120"
 package = true
 
 [project.scripts]
+ohs-maintain = "ohs.maintenance:main"
 ohs-build-docs = "ohs.docs.cli:main"

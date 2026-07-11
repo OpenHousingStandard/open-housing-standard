@@ -7,9 +7,9 @@ v0.2 - Core Standard
 - Sertifisering
 
 v0.3 - Husmodeller
-- Ousdal Hus 80
-- Ousdal Hus 100
+- Ousdal Hus 90
 - Ousdal Hus 120
+- Ousdal Hus 150
 
 v0.4 - Teknisk standard
 - Smarthus

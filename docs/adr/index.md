@@ -1,10 +1,10 @@
 # Architecture Decision Records
 
-This folder records important project decisions.
+This directory records significant architectural and project decisions.
 
-Start with:
+## Records
 
-- ADR-0001: Use open formats.
-- ADR-0002: Use three reference house sizes.
-
+- [ADR-0001: Use open formats](0001-open-formats.md)
+- [ADR-0001: RFC-style standard documents](0002-rfc-style-standard-documents.md)
+- [ADR-0002: Use three reference sizes](0003-three-reference-sizes.md)
 - [ADR-0004: Adopt OHS-000 as the Editorial Standard](0004-editorial-standard.md)

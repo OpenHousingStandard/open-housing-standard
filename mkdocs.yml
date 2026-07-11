@@ -33,8 +33,8 @@ nav:
   - 1. Introduction: standards/ohs-001/01-introduction.md
   - 2. Scope: standards/ohs-001/02-scope.md
   - 3. Normative References: standards/ohs-001/03-normative-references.md
-  - 4. Terminology: standards/ohs-001/04-terminology.md
-  - 5. Design Principles: standards/ohs-001/05-design-principles.md
+  - OHS-001 §4 — Terminology: standards/ohs-001/04-terminology.md
+  - 5. Requirements: standards/ohs-001/05-requirements.md
   - 6. Standard Architecture: standards/ohs-001/06-standard-architecture.md
   - 7. Conformance: standards/ohs-001/07-conformance.md
   - 8. Governance: standards/ohs-001/08-governance.md
@@ -42,7 +42,7 @@ nav:
   - Appendix A: standards/ohs-001/appendix-a.md
   - Appendix B: standards/ohs-001/appendix-b.md
   - Changelog — OHS-001: standards/ohs-001/changelog.md
-  - OHS-001 --- Open Housing Standard: standards/ohs-001/readme.md
+  - OHS-001 — Open Housing Standard: standards/ohs-001/readme.md
   - 1. Introduction: standards/ohs-100/01-introduction.md
   - 2. Scope: standards/ohs-100/02-scope.md
   - 3. Requirements: standards/ohs-100/03-requirements.md
